@@ -2,3 +2,11 @@
 body{
     margin: 0;
 }
+
+canvas {
+    position : absolute;
+}
+
+test {
+    position : absolute;
+}
