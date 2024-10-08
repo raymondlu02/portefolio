@@ -34,7 +34,11 @@ export class HomePageComponent {
     element.style.color = 'rgba(0, 0, 0, 1)';
     element.style.fontSize = '10px'; // Changer la taille du texte ici
     element.style.position = 'absolute'; // Changer la taille du texte ici
-    element.innerHTML = html;
+    element.innerHTML = `
+      <div style={ color: 'white'}>Hello, CSS3D!</div>
+      <p>This is a CSS3D Renderer example with React.</p>
+      <button class="btn btn-primary">Bootstrap Button</button>
+    `;
     element.style.paddingTop = '2px'
     document.body.appendChild(element);
 
